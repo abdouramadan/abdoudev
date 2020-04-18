@@ -1,0 +1,4 @@
+@mixin img__fix($po){
+	background-size: cover;
+	background-position: $po;
+}

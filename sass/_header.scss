@@ -1,0 +1,59 @@
+.main__header{
+	height: 100vh;
+	background-image: linear-gradient(rgba($color-white,0.7),rgba($color-white,0.7)),url('../img/nill.jpg');
+	@include img__fix(top);
+	overflow-x: hidden;
+
+	.navbar{
+		.navbar-brand{
+			font-size: 1.5rem;
+			font-family: $font-popp;
+		}
+
+		.navbar-nav{
+			.nav-item{
+				.nav-link{
+					font-family: $font-muli;
+					color: rgba($color-black,0.8);
+				}
+			}
+		}
+	}
+
+	.hero{
+		.hero__text{
+			top: 50%;
+			transform: translateY(-50%);
+			width: 50%;
+
+			h1{
+				font-family: $font-popp;
+				text-transform: capitalize;
+				span:first-of-type{
+					font-size: 1.5rem
+				}
+				span:last-of-type{
+					font-size: 2rem;
+					span{
+						font-size: 2rem;
+						color: $color-main;
+					}
+				}
+			}
+
+			p{
+				font-size: 1rem;
+				font-family: $font-muli;
+				color: rgba($color-black,0.8);
+			}
+
+			.social__links{
+				a{
+					font-size: 1.5rem;
+					margin-right: 1.5rem;
+					color: rgba($color-black,0.8);
+				}
+			}
+		}
+	}
+}

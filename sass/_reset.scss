@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	letter-spacing: .6px;
+}
+
+.text__intro{
+	h2,h3{
+		font-family: $font-popp;
+		span{
+			color: $color-main;
+		}
+	}
+
+	h2{
+		font-size: 2rem;
+	}
+
+	h3{
+		font-weight: normal;
+		font-size: 1.2rem;
+		color: rgba($color-black, 0.7);
+	}
+}
+
+.navbar-nav-toggle{
+	right: 0% !important;
+}
