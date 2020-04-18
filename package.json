@@ -1,0 +1,22 @@
+{
+  "name": "abdoudev",
+  "version": "1.0.0",
+  "description": "portfolio design",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdouramadan/abdoudev.git"
+  },
+  "author": "abdou ramadan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdouramadan/abdoudev/issues"
+  },
+  "homepage": "https://github.com/abdouramadan/abdoudev#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
