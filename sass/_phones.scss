@@ -1,0 +1,182 @@
+@media screen and (max-width: 992px){
+	// MAIN__HEADER
+	.main__header{
+		.navbar{
+			border-bottom: 1px solid rgba($color-black, 0.1);
+
+			.navbar-nav{
+				position: absolute;
+				top: 62px;
+				right: -100%;
+				width: 200px;
+				background-color: $color-main;
+				z-index: 100;
+				height: calc(100vh - 62px);
+				opacity: .9;
+				padding: 1rem;
+				transition: all .5s;
+				.nav-item{
+					.nav-link{
+						color: $color-white;
+					}
+				}
+			}
+		}
+
+		.hero{
+			.hero__text{
+				width: 70%;
+			}
+		}
+	}
+
+	// ABOUT__ME
+	.about__me{
+		main{
+			.img,.text,.info{
+				width: 100%;
+			}
+
+			.text{
+				margin-top: 1rem;
+			}
+
+			.info{
+				.item{
+					width: 50%;
+				}
+			}
+
+			.count__up{
+				.item{
+					width: 50%;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+	}
+
+	// SERVICES
+	.services,.my__work,.my__blog{
+		main{
+			.content{
+				.item{
+					width: 48%;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+	}
+
+	// CONTACT__ME
+	.contact{
+		main{
+			.content{
+				.info,form{
+					width: 100% !important;
+				}
+
+				.info{
+					margin-bottom: 2rem;
+				}
+			}
+		}
+	}
+
+	// WORK__MODAL
+	.work-modal{
+		width: 95%;
+
+		.content{
+			.img,.info{
+				width: 100% !important;
+				padding: unset !important;
+				img{
+					width: 100% !important;
+					padding-top: 0 !important;
+				}
+			}
+
+			.details{
+				width: 100% !important;
+				padding: 0 !important;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	// MAIN__HEADER
+	.main__header{
+		.hero{
+			.hero__text{
+				h1{
+					width: 100%;
+					span{
+						&:last-of-type{
+							font-size: 1.5rem;
+							span{
+								font-size: 1.5rem;
+							}
+						}
+					}
+				}
+				width: 100%;
+				p{width: 90%}
+			}
+		}
+	}
+	// ABOUT__ME
+	.about__me{
+		main{
+			.info{
+				.item{
+					width: auto !important;
+				}
+			}
+		}
+	}
+
+	// RESUME
+	.resume{
+		main{
+			.content{
+				.education,
+				.expereince{
+					width: 100% !important;
+					margin-bottom: 1rem;
+				}
+			}
+
+			.my__skills{
+				.item{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	// SERVICES
+	.services{
+		main{
+			.content{
+				.item{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	// WORK
+	.my__work,.my__blog{
+		main{
+			.content{
+				.item{
+					width: 100%;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+	}
+}
+

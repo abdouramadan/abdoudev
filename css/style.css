@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Source+Sans+Pro:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli|Poppins:400,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.6px;
+}
+
+.text__intro h2, .text__intro h3 {
+  font-family: "Poppins", sans-serif;
+}
+.text__intro h2 span, .text__intro h3 span {
+  color: #e24727;
+}
+.text__intro h2 {
+  font-size: 2rem;
+}
+.text__intro h3 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav-toggle {
+  right: 0% !important;
+}
+
+.main__header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/nill.jpg");
+  background-size: cover;
+  background-position: top;
+  overflow-x: hidden;
+}
+.main__header .navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.main__header .navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.main__header .hero .hero__text {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.main__header .hero .hero__text h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.main__header .hero .hero__text h1 span:first-of-type {
+  font-size: 1.5rem;
+}
+.main__header .hero .hero__text h1 span:last-of-type {
+  font-size: 2rem;
+}
+.main__header .hero .hero__text h1 span:last-of-type span {
+  font-size: 2rem;
+  color: #e24727;
+}
+.main__header .hero .hero__text p {
+  font-size: 1rem;
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.main__header .hero .hero__text .social__links a {
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.about__me {
+  padding: 5rem 0;
+  background-color: #FFF;
+}
+.about__me main .img {
+  height: 370px;
+  width: 45%;
+}
+.about__me main .img img {
+  background-size: cover;
+  background-position: center;
+}
+.about__me main .text {
+  width: 55%;
+}
+.about__me main .text .intro h2, .about__me main .text .intro h3 {
+  font-family: "Poppins", sans-serif;
+}
+.about__me main .text .intro h2 span, .about__me main .text .intro h3 span {
+  color: #e24727;
+}
+.about__me main .text .intro h2 {
+  font-size: 2rem;
+}
+.about__me main .text .intro h3 {
+  font-size: 1.6rem;
+}
+.about__me main .text .info {
+  margin-top: 1rem;
+}
+.about__me main .text .info .item {
+  margin-bottom: 1rem;
+}
+.about__me main .text .info .item span, .about__me main .text .info .item p {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.about__me main .text .buttons {
+  margin-top: 1rem;
+}
+.about__me main .text .buttons a {
+  width: 170px;
+  height: 50px;
+  margin-right: 1rem;
+  background-color: #e24727;
+  font-family: "Muli", sans-serif;
+  color: #FFF;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+.about__me main .count__up {
+  margin-top: 4rem;
+}
+.about__me main .count__up .item ion-icon {
+  font-size: 2.6rem;
+  opacity: 0.6;
+}
+.about__me main .count__up .item span {
+  margin: 0.5rem 0;
+}
+.about__me main .count__up .item span, .about__me main .count__up .item p {
+  font-family: "Muli", sans-serif;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.resume {
+  padding: 5rem 0;
+  background-color: #fcfcfc;
+}
+.resume main .content .education h4,
+.resume main .content .expereince h4 {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+}
+.resume main .content .education h4 i,
+.resume main .content .expereince h4 i {
+  color: #e24727;
+}
+.resume main .content .education .items__holder,
+.resume main .content .expereince .items__holder {
+  padding: 0 1rem;
+  border-left: 2.3px solid rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.resume main .content .education .items__holder .item,
+.resume main .content .expereince .items__holder .item {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.resume main .content .education .items__holder .item::after,
+.resume main .content .expereince .items__holder .item::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FFF;
+  border: 2px solid #e24727;
+  top: 0;
+  left: -28px;
+}
+.resume main .content .education .items__holder .item h5, .resume main .content .education .items__holder .item span,
+.resume main .content .expereince .items__holder .item h5,
+.resume main .content .expereince .items__holder .item span {
+  font-family: "Poppins", sans-serif;
+}
+.resume main .content .education .items__holder .item h5,
+.resume main .content .expereince .items__holder .item h5 {
+  font-size: 1.1rem;
+  color: #e24727;
+}
+.resume main .content .education .items__holder .item span,
+.resume main .content .expereince .items__holder .item span {
+  color: rgba(0, 0, 0, 0.5);
+}
+.resume main .content .education .items__holder .item p,
+.resume main .content .expereince .items__holder .item p {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+}
+.resume main .my__skills .item {
+  width: 48%;
+  margin-bottom: 1.2rem;
+}
+.resume main .my__skills .item .info span {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.resume main .my__skills .item .progress {
+  height: 3px;
+}
+.resume main .my__skills .item .progress .progress-bar {
+  background-color: #e24727;
+}
+
+.services {
+  padding: 5rem 0;
+}
+.services main .content .item {
+  width: 32%;
+  margin-bottom: 2rem;
+  background-color: #fcfcfc;
+  height: 200px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.services main .content .item .icon {
+  width: 100px;
+  height: 100%;
+  margin-top: 3rem;
+}
+.services main .content .item .icon span {
+  font-size: 2rem;
+  color: #e24727;
+}
+.services main .content .item .icon span i {
+  transition: all 1s;
+  transform-origin: center;
+}
+.services main .content .item .info {
+  height: 100%;
+  margin-top: 3rem;
+}
+.services main .content .item .info h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.services main .content .item .info p {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.services main .content .item:hover .icon span i {
+  transform: rotateY(-360deg);
+}
+
+.my__work {
+  padding: 5rem 0;
+  background-color: #fcfcfc;
+}
+.my__work main ul.nav {
+  border: unset;
+}
+.my__work main ul.nav .nav-item .nav-link {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.my__work main ul.nav .nav-item .nav-link.active {
+  color: #FFF;
+  border: unset;
+  background-color: #e24727;
+  border-radius: 20px;
+}
+.my__work main .content .item {
+  width: 32%;
+  height: 300px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.my__work main .content .item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(226, 71, 39, 0.7);
+  border-radius: 40%;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.my__work main .content .item .img img {
+  transition: all 0.4s;
+}
+.my__work main .content .item .info {
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  position: relative;
+  transform: scale(0);
+}
+.my__work main .content .item .info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border-top: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+}
+.my__work main .content .item .info::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  border-right: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+.my__work main .content .item .info span {
+  width: 45px;
+  height: 30px;
+  background-color: #FFF;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.my__work main .content .item .info p {
+  font-family: "Muli", sans-serif;
+  font-size: 1.1rem;
+  color: #FFF;
+}
+.my__work main .content .item:hover::before {
+  transform: scale(1);
+  border-radius: unset;
+}
+.my__work main .content .item:hover .info {
+  transition-delay: 0.5s;
+  transform: scale(1);
+}
+
+.my__blog {
+  padding: 5rem 0;
+}
+.my__blog main .content .item {
+  width: 32%;
+  height: 500px;
+  background-color: #fcfcfc;
+}
+.my__blog main .content .item .img {
+  width: 100%;
+  height: 240px;
+}
+.my__blog main .content .item .img img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.my__blog main .content .item .text h3, .my__blog main .content .item .text h4 {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.my__blog main .content .item .text h3 {
+  font-size: 1.2rem;
+}
+.my__blog main .content .item .text h4 {
+  font-size: 1.1rem;
+}
+.my__blog main .content .item .text h4 span {
+  color: #e24727;
+}
+.my__blog main .content .item .text p {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.my__blog main .content .item .text a {
+  color: #e24727;
+}
+
+.contact {
+  padding: 5rem 0;
+  background-color: #fcfcfc;
+}
+.contact main .content .info .lets__work h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+}
+.contact main .content .info .lets__work p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Muli", sans-serif;
+}
+.contact main .content .info .item {
+  margin-bottom: 1rem;
+}
+.contact main .content .info .item strong, .contact main .content .info .item p {
+  font-family: "Muli", sans-serif;
+}
+.contact main .content form h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+.contact main .content form .form-group .form-control {
+  height: 45px;
+  font-family: "Muli", sans-serif;
+  font-size: 1.1rem;
+  box-shadow: unset;
+}
+.contact main .content form .form-group .form-control:focus {
+  border: 1px solid #e24727;
+}
+.contact main .content form .form-group textarea {
+  height: 150px !important;
+}
+.contact main .content form .btn {
+  width: 170px;
+  height: 45px;
+  font-family: "Muli", sans-serif;
+  color: #FFF;
+  background-color: #e24727;
+  border-radius: 30px;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/nill.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+}
+.footer main h2, .footer main h3 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.footer main .socail__links a {
+  font-size: 1.3rem;
+  margin: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s;
+}
+.footer main .socail__links a:hover {
+  color: #e24727;
+}
+.footer main h3 {
+  font-size: 1rem;
+}
+.footer main h3 span {
+  color: #e24727;
+}
+
+.work-modal {
+  position: fixed;
+  width: 70%;
+  height: 600px;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  z-index: 100000;
+  border-radius: 10px;
+  overflow-x: auto;
+  transition: all 0.4s;
+  opacity: 1;
+}
+.work-modal .header {
+  height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+}
+.work-modal .header h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.work-modal .header span {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.work-modal .content {
+  margin-top: 70px;
+}
+.work-modal .content .text__intro h3 {
+  text-transform: capitalize;
+}
+.work-modal .content .text__intro p {
+  font-family: "Muli", sans-serif;
+}
+.work-modal .content .info .item span {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.work-modal .content .info .item span:fisrt-of-type {
+  font-weight: 500;
+}
+.work-modal .content .img {
+  height: 400px;
+}
+.work-modal .content .img img {
+  height: 100%;
+}
+.work-modal .content .details p {
+  font-family: "Muli", sans-serif;
+}
+
+.modal-down {
+  top: 50%;
+}
+
+.modal-up {
+  top: -100%;
+}
+
+.darker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 10;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+  .main__header .navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .main__header .navbar .navbar-nav {
+    position: absolute;
+    top: 62px;
+    right: -100%;
+    width: 200px;
+    background-color: #e24727;
+    z-index: 100;
+    height: calc(100vh - 62px);
+    opacity: 0.9;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+  .main__header .navbar .navbar-nav .nav-item .nav-link {
+    color: #FFF;
+  }
+  .main__header .hero .hero__text {
+    width: 70%;
+  }
+
+  .about__me main .img, .about__me main .text, .about__me main .info {
+    width: 100%;
+  }
+  .about__me main .text {
+    margin-top: 1rem;
+  }
+  .about__me main .info .item {
+    width: 50%;
+  }
+  .about__me main .count__up .item {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+
+  .services main .content .item, .my__work main .content .item, .my__blog main .content .item {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+
+  .contact main .content .info, .contact main .content form {
+    width: 100% !important;
+  }
+  .contact main .content .info {
+    margin-bottom: 2rem;
+  }
+
+  .work-modal {
+    width: 95%;
+  }
+  .work-modal .content .img, .work-modal .content .info {
+    width: 100% !important;
+    padding: unset !important;
+  }
+  .work-modal .content .img img, .work-modal .content .info img {
+    width: 100% !important;
+    padding-top: 0 !important;
+  }
+  .work-modal .content .details {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__header .hero .hero__text {
+    width: 100%;
+  }
+  .main__header .hero .hero__text h1 {
+    width: 100%;
+  }
+  .main__header .hero .hero__text h1 span:last-of-type {
+    font-size: 1.5rem;
+  }
+  .main__header .hero .hero__text h1 span:last-of-type span {
+    font-size: 1.5rem;
+  }
+  .main__header .hero .hero__text p {
+    width: 90%;
+  }
+
+  .about__me main .info .item {
+    width: auto !important;
+  }
+
+  .resume main .content .education,
+.resume main .content .expereince {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+  .resume main .my__skills .item {
+    width: 100%;
+  }
+
+  .services main .content .item {
+    width: 100%;
+  }
+
+  .my__work main .content .item, .my__blog main .content .item {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

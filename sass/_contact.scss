@@ -1,0 +1,61 @@
+.contact{
+	padding: 5rem 0;
+	background-color: $color-light;
+	
+	main{
+		.content{
+			.info{
+				.lets__work{
+					h4{
+						font-family: $font-popp;
+						font-size: 1.3rem;
+					}
+
+					p{
+						color: rgba($color-black, 0.7);
+						font-family: $font-muli;
+					}
+				}
+
+				.item{
+					margin-bottom: 1rem;
+					strong,p{
+						font-family: $font-muli;
+					}
+				}
+			}
+			
+			form{
+				h5{
+					font-family: $font-popp;
+					font-size: 1.1rem;
+				}
+
+				.form-group{
+					.form-control{
+						height: 45px;
+						font-family: $font-muli;
+						font-size: 1.1rem;
+						box-shadow: unset;
+						&:focus{
+							border: 1px solid $color-main;
+						}
+					}
+
+					textarea{
+						height: 150px !important;
+					}
+				}
+
+				.btn{
+					width: 170px;
+					height: 45px;
+					font-family: $font-muli;
+					color: $color-white;
+					background-color: $color-main;
+					border-radius: 30px;
+				}
+			}
+		}
+	}
+}

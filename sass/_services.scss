@@ -1,0 +1,56 @@
+.services{
+	padding: 5rem 0;
+
+	main{
+		.content{
+			.item{
+				width: 32%;
+				margin-bottom: 2rem;
+				background-color: $color-light;
+				height: 200px;
+				padding: 1rem;
+				cursor: pointer;
+
+				.icon{
+					width: 100px;
+					height: 100%;
+					margin-top: 3rem;
+
+					span{
+						font-size: 2rem;
+						color: $color-main;
+						i{
+							transition: all 1s;
+							transform-origin: center;
+						}
+					}
+				}
+
+				.info{
+					height: 100%;
+					margin-top: 3rem;
+
+					h4{
+						font-family: $font-popp;
+						font-size: 1.2rem;
+					}
+
+					p{
+						font-family: $font-muli;
+						color: rgba($color-black, 0.8);
+					}
+				}
+
+				&:hover{
+					.icon{
+						span{
+							i{
+								transform: rotateY(-360deg);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
